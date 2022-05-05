@@ -2,37 +2,33 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.color_div {
+  height: 100px;
+  background: red;
+  width: 25%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.checkbox_parent {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 40px;
 }
-
-.App-link {
-  color: #61dafb;
+.color_div_two {
+  background: yellow;
+  width: 100%;
+  height: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+}
+.checkbox_parent {
+  display: flex;
+  align-items: center;
+}
+.checbox_item {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
